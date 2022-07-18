@@ -1,3 +1,10 @@
+'''----------------SQLi Automation ------------------------------
+Here, the target site(basically the hostname) is configured.
+The input field of the target website is basically the exploiting spot... which is accessed via mechanicalsoup module of python
+Different types of sqli is tried on the input field of the target site
+'''
+
+
 import mechanicalsoup
 import os
 import time
